@@ -2,13 +2,10 @@
 
 Homebrew formula for the [OpenFlix CLI](https://github.com/moiz-7/OpenFlix).
 
-> **Release is live** — [v1.0.0](https://github.com/moiz-7/OpenFlix/releases/tag/v1.0.0)
-> is published with a real SHA in the formula, and `brew install` was verified
-> end-to-end locally (via `brew tap-new` + local formula copy). The one remaining
-> step is creating the public repo `moiz-7/homebrew-openflix` and pushing this
-> directory's contents to it — see [RELEASE.md](RELEASE.md) step 5.
+This tap is **live** at [github.com/moiz-7/homebrew-openflix](https://github.com/moiz-7/homebrew-openflix).
+Current release: **v1.0.1** (universal macOS binary — arm64 + x86_64).
 
-## Install (once live)
+## Install
 
 ```bash
 brew tap moiz-7/openflix
@@ -21,3 +18,7 @@ brew install openflix
 brew update
 brew upgrade openflix
 ```
+
+## Releasing a new version
+
+See [RELEASE.md](RELEASE.md).

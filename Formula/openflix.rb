@@ -1,5 +1,5 @@
 class Openflix < Formula
-  desc "AI video generation CLI — 6 providers, recipes, orchestration, quality gate, MCP server"
+  desc "AI video generation CLI — 7 providers, recipes, orchestration, quality gate, MCP server"
   homepage "https://github.com/moiz-7/OpenFlix"
   url "https://github.com/moiz-7/OpenFlix/releases/download/v1.0.1/openflix-v1.0.1-macos.tar.gz"
   sha256 "4653c84abcacd1ce91a54e6fd884f41c4a0863960d4e639b4f927a64f40d5edb"
