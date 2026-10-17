@@ -3,7 +3,9 @@ class Openflix < Formula
   homepage "https://github.com/moiz-7/OpenFlix"
   url "https://github.com/moiz-7/OpenFlix/releases/download/v1.1.0/openflix-v1.1.0-macos.tar.gz"
   sha256 "26f082074b61f03ac56525a02417a5d350e7d59830024746dee5fe97e62f7e7a"
-  license :cannot_represent # proprietary — see LICENSE in the repo
+  # PolyForm Shield 1.0.0 (source-available, not open source). It is not on the
+  # SPDX list Homebrew validates against, so :cannot_represent is the correct value.
+  license :cannot_represent
   version "1.1.0"
 
   depends_on macos: :sonoma # macOS 14+; this alone implies macOS-only
